@@ -10,8 +10,9 @@ server:
     port: 8761
 spring: 
     application: 
-    profiles: dev
         name: eureka-server
+    profiles: dev
+        
 ---
 eureka: 
     client: 
@@ -21,5 +22,5 @@ server:
     port: 8762
 spring: 
     application: 
-    profiles: test
         name: eureka-server
+    profiles: test
