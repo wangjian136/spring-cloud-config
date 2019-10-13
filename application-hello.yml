@@ -7,7 +7,7 @@ eureka:
         fetchRegistry: false
         registerWithEureka: false
 server: 
-    port: 8761
+    port: 8763
 spring: 
     application: 
         name: eureka-server
