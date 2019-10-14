@@ -6,7 +6,7 @@ server:
     port: 8080
 spring: 
     application: 
-        name: application-3
+        name: application-4
     profiles: dev
         
 ---
